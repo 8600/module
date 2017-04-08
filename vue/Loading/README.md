@@ -1,22 +1,11 @@
-1.创建文件Order.js，内容为：
-```
-"use strict";
-import Vue from 'vue';
-export var Order = new Vue();
-```
-2.在父组件里导入Order.js并监听事件,父组件内容为:
+使用教程：
+1.保证组件上级目录中有Order.js
+2.父组件引入Order.js
 ```
 import { Order } from './Order.js'
-// ...
-created () {
-  Order.$on('tip', (text) => {
-    alert(text)
-  })
-}
 ```
-3.在子组件里导入Order.js并发送事件,子组件内容为:
+3.显示/隐藏Loading框
 ```
-import { Order } from './Order.js'
- // ...
-Order.$emit('tip', '123')
+显示:Order.$emit('Loading', 'show')
+隐藏:Order.$emit('Loading', 'hide')
 ```
