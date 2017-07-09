@@ -8,13 +8,7 @@ A Vue.js component for simple switches with theme support for [bulma](http://bul
 <img src="http://drewjbartlett.com/assets/demos/vue-switches/vue-switches.png" /><br>
 <img src="http://drewjbartlett.com/assets/demos/vue-switches/vue-switches-bold.png" />
 
-## Installation
-
-```bash
-npm install vue-switches --save
-```
-
-## Basic Usage
+## 基础用法
 
 ```javascript
 import Switches from 'vue-switches';
