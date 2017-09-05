@@ -1,6 +1,6 @@
 # NumberEntry
 
-[img](http://my-owo-ink.b0.upaiyun.com/puge/github/module/NumberEntry.png)
+![img](http://my-owo-ink.b0.upaiyun.com/puge/github/module/NumberEntry.png)
 
 数字选择控件，带增加减少按钮
 
